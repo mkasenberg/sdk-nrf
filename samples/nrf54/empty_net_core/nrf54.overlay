@@ -1,0 +1,12 @@
+/ {
+    reserved-memory {
+        #address-cells = <1>;
+        #size-cells = <1>;
+        ranges;
+
+        mynewt_memory: memory@0e070000 {
+            reg = <0x0e070000 0x00020000>;
+            no-map;
+        };
+    };
+};

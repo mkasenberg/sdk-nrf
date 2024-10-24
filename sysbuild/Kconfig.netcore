@@ -152,7 +152,7 @@ config NETCORE_IMAGE_NAME
 	  Name of netcore image.
 
 config NETCORE_IMAGE_PATH
-	string
+	string "Whatever"
 	default "${ZEPHYR_NRF_MODULE_DIR}/samples/nrf5340/empty_net_core" if NETCORE_EMPTY
 	default "${ZEPHYR_BASE}/samples/bluetooth/hci_ipc" if NETCORE_HCI_IPC
 	default "${ZEPHYR_NRF_MODULE_DIR}/samples/bluetooth/rpc_host" if NETCORE_RPC_HOST
